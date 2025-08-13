@@ -1,5 +1,8 @@
 package Q2;
 
+//name : mahmoud srour
+//id: 120210278
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
