@@ -1,0 +1,46 @@
+
+.bg {
+    -fx-background-color: #8a8d91;
+}
+
+.label.title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-padding: 10;
+}
+
+.label.error {
+    -fx-text-fill: #c0392b;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 180;
+    -fx-background-color: white;
+    -fx-background-radius: 4;
+    -fx-padding: 10;
+    -fx-border-color: #2bb6cc;
+    -fx-border-width: 2;
+    -fx-border-radius: 3;
+}
+
+.btn {
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 6, 0.2, 0, 1);
+}
+
+.btn-teal {
+    -fx-background-color:
+        linear-gradient(#5bb3b6, #2f6e73);
+}
+
+.btn:hover {
+    -fx-opacity: 0.95;
+}
+.btn:armed {
+    -fx-translate-y: 1;
+}
